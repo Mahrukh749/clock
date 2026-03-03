@@ -1,0 +1,55 @@
+/* Navbar background */
+.navbar {
+  background: linear-gradient(90deg, #1d2671, #c33764);
+  padding: 12px 20px;
+}
+
+/* Brand */
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* Nav links */
+.navbar-nav .nav-link {
+  color: #f1f1f1 !important;
+  margin: 0 8px;          /* horizontal spacing */
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.navbar-nav .nav-link:hover {
+  color: #ffd369 !important;
+}
+
+/* Active link */
+.navbar-nav .nav-link.active {
+  color: #ffd369 !important;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Search input */
+.form-control {
+  border-radius: 20px;
+}
+
+/* Search button */
+.btn-outline-success {
+  border-radius: 20px;
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-success:hover {
+  background-color: #ffd369;
+  border-color: #ffd369;
+  color: #000;
+}
